@@ -4,6 +4,8 @@ This is a multi-container Slurm cluster using docker-compose.  The compose file
 creates named volumes for persistent storage of MySQL data files as well as
 Slurm state and log directories.
 
+This is based on https://github.com/giovtorres/slurm-docker-cluster.git and extends it to use mpi.
+
 ## Containers and Volumes
 
 The compose file will run the following containers:
