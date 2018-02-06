@@ -15,6 +15,8 @@ The compose file will run the following containers:
 * slurmctld
 * c1 (slurmd)
 * c2 (slurmd)
+* c3 (slurmd)
+* c4 (slurmd)
 
 The compose file will create the following named volumes:
 
