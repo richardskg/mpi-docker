@@ -1,6 +1,6 @@
 FROM  giovtorres/slurm-docker-cluster:latest
 
-LABEL org.label-schema.vcs-url="https://github.com/giovtorres/slurm-docker-cluster" \
+LABEL org.label-schema.vcs-url="https://github.com/richardskg/mpi-docker" \
       org.label-schema.docker.cmd="docker-compose up -d" \
       org.label-schema.name="mpi-docker-cluster" \
       org.label-schema.description="Slurm Docker cluster on CentOS 7 with MPI" \

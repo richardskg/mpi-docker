@@ -71,7 +71,7 @@ From the shell, execute slurm commands, for example:
 ```console
 [root@slurmctld /]# sinfo
 PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
-normal*      up 5-00:00:00      2   idle c[1-2]
+normal*      up 5-00:00:00      4   idle c[1-4]
 ```
 
 ## Submitting Jobs
